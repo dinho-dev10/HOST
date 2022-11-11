@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header.main {
+    background-color: #403b33;
+}
+
+header.main > .container {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 50px);
+    margin: auto;
+}
+
+header.main > .container > .title,
+header.main > .container > .profile {
+    color: #d3643b;
+    display: flex;
+    font-size: 25px;
+}
+
+header.main > .container > .menu > div,
+header.main > .container > .opt > div {
+    width: 25px;
+    height: 3px;
+    background-color: #d3643b;
+}
+
+header.main > .container > .menu > div:not(.f),
+header.main > .container > .opt > div:not(.f) {
+    margin-top: 5px;
+}
+
+header.main > .container > .profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header.main > .container > .profile > p:nth-child(1) {
+    background-color: #edebe6;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.main > .container > .opt {
+    display: flex;
+    align-items: center;
+    color: #d3643b;
+}
+
+header.main > .container > .opt > input {
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.opt > ion-icon {
+    color: #d3643b;
+    font-size: 30px;
+}
