@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header.main {
+    background-color: #403b33;
+}
+
+header.main > .container.menu {
+    width: calc(100% - 50px);
+    height: 40px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.main > .container.menu > .name {
+    color: #edebe6;
+}
+
+header.main > .container.menu > .menu.button > div{
+    width: 20px;
+    height: 3px;
+    background-color: #edebe6;
+}
+
+header.main > .container.menu > .menu.button > div:not(.menu.button > .first) {
+    margin-top: 4px;
+}
+
+header.main > .container.profile {
+    width: calc(100% - 50px);
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.main > .container.profile > .login {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header.main > .container.profile > .login > .img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #edebe6;
+
+}
+
+header.main > .container.profile > .login > .login {
+    color: #edebe6;
+}
+
+header.main > .container.profile > .search.car {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header.main > .container.profile > .search.car > input {
+    outline: none;
+    border: none;
+    height: 30px;
+    padding: 0 12px;
+    width: 96px;
+    background-color: #edebe6;
+}
+
+header.main > .container.profile > .search.car > ion-icon {
+    color: #edebe6;
+    font-size: 25px;
+}
