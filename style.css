@@ -22,6 +22,8 @@ header.main > .container.menu {
 
 header.main > .container.menu > .name {
     color: #edebe6;
+    display: flex;
+    gap: 6px;
 }
 
 header.main > .container.menu > .menu.button > div{
@@ -55,6 +57,10 @@ header.main > .container.profile > .login > .img {
     height: 40px;
     border-radius: 50%;
     background-color: #edebe6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 
 }
 
@@ -80,4 +86,42 @@ header.main > .container.profile > .search.car > input {
 header.main > .container.profile > .search.car > ion-icon {
     color: #edebe6;
     font-size: 25px;
+}
+
+.search {
+    background-color: #403b33;
+    color: #fff;
+}
+
+.search > .limiter {
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: calc(100% - 50px);
+}
+
+.container > input {
+    outline: none;
+    border: none;
+    height: 30px;
+    padding: 0 20px;
+}
+
+.search > .limiter > .container:nth-child(1) {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: chocolate;
+}
+
+.search > .limiter > .container > .lupa {
+    background-color: #d3643b;
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
