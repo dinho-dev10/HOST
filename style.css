@@ -36,6 +36,7 @@ header.main > .container.menu > .menu.button > div:not(.menu.button > .first) {
 
 header.main > .container.profile {
     width: calc(100% - 50px);
+    max-width: 1200px;
     height: 60px;
     margin: auto;
     display: flex;
