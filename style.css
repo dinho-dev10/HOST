@@ -108,6 +108,7 @@ header.main > .container.profile > .search.car > ion-icon {
     border: none;
     height: 30px;
     padding: 0 20px;
+    width: 150px;
 }
 
 .search > .limiter > .container:nth-child(1) {
