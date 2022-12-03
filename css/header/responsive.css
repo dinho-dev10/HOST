@@ -5,3 +5,25 @@
         width: calc(100% - 100px);
     }
 }
+
+@media screen  and (max-width: 870px) {
+    header.main > .limiter {
+        width: calc(100% - 50px);
+    }
+
+    header.main > .limiter > .container > .menu > ul {
+        display: none;
+    }
+
+    header.main > .limiter > .container > .menu > .mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    header.main > .limiter > .container > .menu > .mobile > div {
+        background-color: var(--color-menu-mobile);
+        width: 25px;
+        height: 3px;
+    }
+}

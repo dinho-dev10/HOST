@@ -49,3 +49,7 @@ header.main > .limiter > .container > .menu > ul > li::first-letter {
 header.main > .limiter > .container > .menu > ul > li:hover {
     border-color: var(--border-menu-color);
 }
+
+header.main > .limiter > .container > .menu > .mobile {
+    display: none;
+}
