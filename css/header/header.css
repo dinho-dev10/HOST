@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+header.main {
+    background-color: var(--bg-header);
+    position: relative;
+}
+
+header.main > .limiter {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header.main > .limiter > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+header.main > .limiter > .container > .title {
+    display: flex;
+    align-items: center;
+}
+
+header.main > .limiter > .container > .title > .icon > ion-icon {
+    font-size: 22px;
+}
+
+header.main > .limiter > .container > .menu > ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+header.main > .limiter > .container > .menu > ul > li {
+    user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+
+header.main > .limiter > .container > .menu > ul > li::first-letter {
+    text-transform: uppercase;
+}
+
+header.main > .limiter > .container > .menu > ul > li:hover {
+    border-color: var(--border-menu-color);
+}
