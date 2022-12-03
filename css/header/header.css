@@ -53,3 +53,54 @@ header.main > .limiter > .container > .menu > ul > li:hover {
 header.main > .limiter > .container > .menu > .mobile {
     display: none;
 }
+
+/* HEADER 2 */
+
+header.main > .limiter > .container > .profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header.main > .limiter > .container > .profile > .img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    font-size: 12px;
+}
+
+header.main > .limiter > .container > .opt {
+    display: flex;
+    gap: 12px;
+}
+
+header.main > .limiter > .container > .opt > .btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+header.main > .limiter > .container > .opt > .btn:not(.btn.input) {
+    font-size: 20px;
+}
+
+header.main > .limiter > .container > .opt > .btn > input{
+    outline: none;
+    border: none;
+    height: 28px;
+    padding: 0 16px;
+}
+
+header.main > .limiter > .container > .opt > .btn > button {
+    width: 50px;
+    height: 28px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

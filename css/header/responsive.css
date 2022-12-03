@@ -26,4 +26,8 @@
         width: 25px;
         height: 3px;
     }
+
+    header.main > .limiter > .container > .opt > .btn.input {
+        display: none;
+    }
 }

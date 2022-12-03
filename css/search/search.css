@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+section.search {
+    display: none;
+}
+
+section.search > .limiter {
+    width: calc(100% - 50px);
+    margin: auto;
+    position: relative;
+}
+
+section.search > .limiter > .container {
+    display: flex;
+    border: 1px solid #000;
+    margin-top: 12px;
+    border-radius: 8px;
+}
+
+section.search > .limiter > .container > input {
+    width: calc(100% - 62px);
+    height: 30px;
+    margin-left: 12px;
+}
+
+section.search > .limiter > .container > button {
+    width: 50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--bg-header);
+}
+
+section.search > .limiter > .container > input,
+section.search > .limiter > .container > button {
+    border: none;
+    outline: none;
+}
