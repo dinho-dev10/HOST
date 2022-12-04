@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+footer.main {
+    background-color: var(--bg-header);
+    margin-top: 24px;
+    padding: 12px 0;
+}
+
+footer.main > .limiter {
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer.main > .limiter > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer.main > .limiter > .container > .socials {
+    display: flex;
+    gap: 12px;
+}
+
+footer.main > .limiter > .container > .socials > div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+section.cards {
+    border: 1px solid #fff;
+}
+
+section.cards > .limiter {
+    max-width: 1200px;
+    margin: auto;
+}
+
+section.cards > .limiter > .container {
+    margin: auto;
+    margin-top: 12px;
+    width: 1036px;
+}
+
+section.cards > .limiter > .container:not(section.cards > .limiter > .container:nth-child(1)) {
+    border-top: 1px solid #000;
+    padding-top: 12px;
+}
+
+section.cards > .limiter > .container > .title {
+    font-size: 20px;
+}
+
+section.cards > .limiter > .container > .content {
+    margin-top: 12px;
+    display: flex;
+    gap: 12px;
+    overflow: hidden;
+
+}
+
+section.cards > .limiter > .container > .content > .card {
+    position: relative;
+}
+
+section.cards > .limiter > .container > .content > .card  > .discont {
+    position: absolute;
+    height: 20px;
+    width: 80px;
+    background-color: var(--bg-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 8px;
+}
+
+section.cards > .limiter > .container > .content > .card  > .addtocart,
+section.cards > .limiter > .container > .content > .card  > .like {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: var(--bg-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*font-size: 20px;*/
+    border-radius: 8px;
+    top: 264px;
+}
+
+section.cards > .limiter > .container > .content > .card  > .addtocart {
+    left: 6px;
+}
+
+section.cards > .limiter > .container > .content > .card  > .like {
+    left: 42px;
+}
+
+section.cards > .limiter > .container > .content > .card > .img {
+    height: 300px;
+    overflow: hidden;
+}
+
+section.cards > .limiter > .container > .content > .card > .img > img {
+    width: 250px;
+    height: auto;
+}
+
+section.cards > .limiter > .container > .content > .card > .title {
+    margin-top: 4px;
+}
+
+section.cards > .limiter > .container > .content > .card > .select {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    gap: 8px 12px;
+}
+
+section.cards > .limiter > .container > .content > .card > .select > select {
+    border: none;
+    outline: none;
+    /*background-color: var(--bg-header);*/
+}
+
+section.cards > .limiter > .container > .content > .card > .btns {
+    height: 40px;
+    width: 250px;
+    background-color: var(--bg-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 12px;
+}
