@@ -56,7 +56,6 @@ section.cards > .limiter > .container > .content > .card  > .like {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*font-size: 20px;*/
     border-radius: 8px;
     top: 264px;
 }
@@ -88,12 +87,12 @@ section.cards > .limiter > .container > .content > .card > .select {
     flex-wrap: wrap;
     width: 250px;
     gap: 8px 12px;
+    flex-direction: column;
 }
 
 section.cards > .limiter > .container > .content > .card > .select > select {
     border: none;
     outline: none;
-    /*background-color: var(--bg-header);*/
 }
 
 section.cards > .limiter > .container > .content > .card > .btns {
@@ -105,4 +104,4 @@ section.cards > .limiter > .container > .content > .card > .btns {
     align-items: center;
     border-radius: 5px;
     margin-top: 12px;
-}
+} 

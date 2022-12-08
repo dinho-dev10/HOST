@@ -16,8 +16,64 @@
     }
 }
 
+
 @media screen  and (max-width: 550px) {
     section.cards > .limiter > .container {
-        width: 250px;
+        width: calc(100% - 50px);
+    }
+
+    section.cards > .limiter > .container > .content {
+        gap: 6px;
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+
+    section.cards > .limiter > .container > .content > .card  > .discont {
+        height: 15px;
+        width: 55px;
+        border-bottom-right-radius: 4px;
+        font-size: 10px;
+    }
+
+    section.cards > .limiter > .container > .content > .card  > .addtocart,
+    section.cards > .limiter > .container > .content > .card  > .like {
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        top: 156px;
+    }
+
+    section.cards > .limiter > .container > .content > .card  > .addtocart {
+        left: 4px;
+    }
+    
+    section.cards > .limiter > .container > .content > .card  > .select {
+        gap: 4px;
+    }
+
+    section.cards > .limiter > .container > .content > .card  > .title,
+    section.cards > .limiter > .container > .content > .card  > .select > select {
+        font-size: 12px;
+    }
+
+    section.cards > .limiter > .container > .content > .card  > .like {
+        left: 28px;
+    }
+
+    section.cards > .limiter > .container > .content > .card > .img {
+        height: 180px;
+    }
+
+    section.cards > .limiter > .container > .content > .card > .img > img,
+    section.cards > .limiter > .container > .content > .card > .select,
+    section.cards > .limiter > .container > .content > .card > .btns {
+        width: 150px;
+    }
+
+    section.cards > .limiter > .container > .content > .card > .btns {
+        margin-top: 6px;
+        height: 30px;
+        font-size: 12px;
     }
 }
+
